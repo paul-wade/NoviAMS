@@ -13,6 +13,8 @@ export class MappingService {
 
   getLatLong(street: string, city: string, state: string, zip: string): Promise<Park> {
     let params: URLSearchParams = new URLSearchParams();
+
+    //We will accept partial params and do our best to find the closest location.
     if (street)
       params.set('street', street);
     if (city)

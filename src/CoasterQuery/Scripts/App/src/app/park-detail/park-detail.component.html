@@ -1,4 +1,22 @@
-<div *ngIf="park">
-  <h2>{{park.Name}} details!</h2>
-
+<div *ngIf="park" class="pageContent">
+  <div class="row">
+    <div class="col-md-7">
+      <h2>{{park.Name}} details!</h2>
+      <div>
+        <div class="label">location</div>
+        <div>{{park.City}} - {{park.State}}</div>
+      </div>
+      <div>
+        <div>{{park.Country}}</div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div *ngIf="latlong">
+        <sebm-google-map [latitude]="latlong.Latitude" [longitude]="latlong.Longitude">
+          <sebm-google-map-marker [latitude]="latlong.Latitude"
+                                  [longitude]="latlong.Longitude"></sebm-google-map-marker>
+        </sebm-google-map>
+      </div>
+    </div>
+  </div>
 </div>
