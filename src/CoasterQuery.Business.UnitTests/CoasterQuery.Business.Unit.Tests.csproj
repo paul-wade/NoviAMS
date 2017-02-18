@@ -116,11 +116,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoasterQuery.Business\CoasterQuery.Business.csproj">
-      <Project>{4D65A570-D088-4E02-8BBD-61CC6D7E28FC}</Project>
+      <Project>{1DB98205-6C20-457F-9DB6-2D94E3DF9502}</Project>
       <Name>CoasterQuery.Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\CoasterQuery.Data\CoasterQuery.Data.csproj">
-      <Project>{23F21A2A-79A5-492C-B2CD-FD8B973DEA41}</Project>
+      <Project>{C2C8CA0F-383A-47F4-8363-FC1272AB8A1A}</Project>
       <Name>CoasterQuery.Data</Name>
     </ProjectReference>
   </ItemGroup>

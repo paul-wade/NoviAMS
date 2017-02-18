@@ -346,16 +346,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoasterQuery.Business\CoasterQuery.Business.csproj">
-      <Project>{4d65a570-d088-4e02-8bbd-61cc6d7e28fc}</Project>
-      <Name>CoasterQuery.Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CoasterQuery.Data\CoasterQuery.Data.csproj">
-      <Project>{23f21a2a-79a5-492c-b2cd-fd8b973dea41}</Project>
-      <Name>CoasterQuery.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <TypeScriptCompile Include="Scripts\App\e2e\app.e2e-spec.ts" />
     <TypeScriptCompile Include="Scripts\App\e2e\app.po.ts" />
     <TypeScriptCompile Include="Scripts\App\src\app\app.component.spec.ts" />
@@ -378,6 +368,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoasterQuery.Business\CoasterQuery.Business.csproj">
+      <Project>{1db98205-6c20-457f-9db6-2d94e3df9502}</Project>
+      <Name>CoasterQuery.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoasterQuery.Data\CoasterQuery.Data.csproj">
+      <Project>{C2C8CA0F-383A-47F4-8363-FC1272AB8A1A}</Project>
+      <Name>CoasterQuery.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

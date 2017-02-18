@@ -117,7 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoasterQuery.Business\CoasterQuery.Business.csproj">
-      <Project>{4D65A570-D088-4E02-8BBD-61CC6D7E28FC}</Project>
+      <Project>{1DB98205-6C20-457F-9DB6-2D94E3DF9502}</Project>
       <Name>CoasterQuery.Business</Name>
     </ProjectReference>
   </ItemGroup>
