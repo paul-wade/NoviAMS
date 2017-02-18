@@ -20,7 +20,7 @@ namespace CoasterQuery.Controllers
             _mappingService = mappingService;
         }
 
-        public async Task<IHttpActionResult> GetLatLong(string street, string city, string state, string zip)
+        public async Task<IHttpActionResult> GetLatLong(string street = "", string city = "", string state ="", string zip = "")
         {
             var latLong = await _mappingService.GetLatLong(street, city, state, zip);
             return Ok(latLong);

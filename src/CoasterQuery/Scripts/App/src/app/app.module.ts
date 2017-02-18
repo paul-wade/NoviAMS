@@ -18,7 +18,7 @@ import {ParkDetailComponent} from "./park-detail/park-detail.component";
 
 const appRoutes: Routes = [
   {path: 'home', component: ParkListComponent},
-  {path: 'park', component: ParkDetailComponent},
+  {path: 'park/:ParkID', component: ParkDetailComponent},
 ];
 
 

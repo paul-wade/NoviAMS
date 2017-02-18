@@ -13,7 +13,9 @@
             <div>{{park.Country}}</div>
           </div>
         </md-card-content>
-        <md-card-actions><button md-button routerLink="/park">see more</button></md-card-actions>
+        <md-card-actions>
+          <button md-button [routerLink]="['/park',park.ParkID]">see more</button>
+        </md-card-actions>
       </md-card>
     </div>
     <router-outlet></router-outlet>
