@@ -277,9 +277,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Scripts\App\.idea\modules.xml" />
-    <Content Include="Scripts\App\.idea\vcs.xml" />
-    <Content Include="Scripts\App\.idea\workspace.xml" />
     <Content Include="Scripts\App\dist\favicon.ico" />
     <Content Include="Scripts\App\dist\index.html" />
     <Content Include="Scripts\App\dist\inline.11ba471bfebd9b2011ca.bundle.js" />
@@ -296,7 +293,6 @@
     <Content Include="Scripts\App\src\assets\.gitkeep" />
     <Content Include="Scripts\App\src\tsconfig.json" />
     <Content Include="Scripts\App\e2e\tsconfig.json" />
-    <Content Include="Scripts\App\.idea\Scripts.iml" />
     <Content Include="Scripts\App\.angular-cli.json" />
     <Content Include="Scripts\App\.editorconfig" />
     <Content Include="Scripts\App\.gitignore" />
