@@ -1,5 +1,5 @@
 import {Injectable} from "@angular/core";
-import {Park} from "../Models/park";
+import {Park} from "./Models/park";
 import {Http} from "@angular/http";
 import "rxjs/add/operator/toPromise";
 import "rxjs/Rx";

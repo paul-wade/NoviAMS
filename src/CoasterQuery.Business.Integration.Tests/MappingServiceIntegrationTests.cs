@@ -20,8 +20,11 @@ namespace CoasterQuery.Business.Integration.Tests
             var underTest = new MappingService();
             var result = await underTest.GetLatLong("1600 Pennsylvania Avenue", "Washington", "DC", "20006");
             result.Should().NotBeNull();
-       
+            result.Longitude.ShouldBeEquivalentTo(-77.0376581);
+            result.Latitude.ShouldBeEquivalentTo(38.8987586);
         }
+
+        //add more tests around failures.
 
     }
 }

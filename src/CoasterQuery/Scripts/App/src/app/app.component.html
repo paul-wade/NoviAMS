@@ -1,20 +1,6 @@
-<div class="app-content">
-  <h1>The super cool coaster site.</h1>
-  <div class="container">
-    <div class="row">
-      <md-card *ngFor="let park of parks" class="col-md-5">
-        <md-card-title>{{park.Name}}</md-card-title>
-        <md-card-content>
-          <div>
-              <div class="label">location</div>
-              <div>{{park.City}} - {{park.State}}</div>
-          </div>
-          <div>
-            <div>{{park.Country}}</div>
-          </div>
-        </md-card-content>
-        <md-card-actions><button md-button>see more</button></md-card-actions>
-      </md-card>
-   </div>
-  </div>
-</div>
+<md-toolbar>
+  <a routerLink="/home">Park List</a>
+</md-toolbar>
+<router-outlet></router-outlet>
+
+

@@ -1,4 +1,4 @@
-import { Park } from '../Models/park';
+import { Park } from './Models/park';
 export const ParksMock: Park[] = [
   {ParkID:1,
   Address:"123 fake stree",
