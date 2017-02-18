@@ -5,7 +5,7 @@ import "rxjs/add/operator/toPromise";
 import "rxjs/Rx";
 @Injectable()
 export class ParkService {
-  rootUrl = "http://localhost:19502/api/";
+  rootUrl = "http://paulscoaster.azurewebsites.net/api/park/";
 
   constructor(private http: Http) {
   }

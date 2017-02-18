@@ -6,7 +6,7 @@ import "rxjs/Rx";
 
 @Injectable()
 export class MappingService {
-  rootUrl = "http://localhost:19502/api/";
+  rootUrl = "http://paulscoaster.azurewebsites.net/api/";
 
   constructor(private http: Http) {
   }
