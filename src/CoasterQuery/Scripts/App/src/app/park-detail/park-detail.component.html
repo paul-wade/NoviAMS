@@ -1,13 +1,22 @@
 <div *ngIf="park" class="pageContent">
   <div class="row">
+    <div class="col-md-12 park-status-container">
+      <div *ngIf="park.IsDefunct" class="alert alert-danger" role="alert">CLOSED!</div>
+      <div *ngIf="park.IsApproved && !park.IsDefunct" class="alert alert-success" role="alert">This location is Paul approved!</div>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-7">
       <h2>{{park.Name}} details!</h2>
-      <div>
+       <div>
         <div class="label">location</div>
-        <div>{{park.City}} - {{park.State}}</div>
+        <div>{{park.Address}}</div>
       </div>
       <div>
-        <div>{{park.Country}}</div>
+        <div>{{park.City}} {{park.State}} {{park.Zip}} {{park.Country}}</div>
+      </div>
+      <div>
+        <a href="{{park.Website}}">{{park.Website}}</a>
       </div>
     </div>
     <div class="col-md-5">
@@ -16,6 +25,9 @@
           <sebm-google-map-marker [latitude]="latlong.Latitude"
                                   [longitude]="latlong.Longitude"></sebm-google-map-marker>
         </sebm-google-map>
+      </div>
+      <div>
+        <span>{{park.Note}}</span>
       </div>
     </div>
   </div>
