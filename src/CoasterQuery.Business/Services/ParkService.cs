@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using CoasterQuery.Data.Models;
 using CoasterQuery.Data.Repositories;
 
-namespace CoasterQuery.Business
+namespace CoasterQuery.Business.Services
 {
-    public class ParkService
+    public class ParkService : IParkService
     {
         private readonly IRepository<Park> _repository;
 
