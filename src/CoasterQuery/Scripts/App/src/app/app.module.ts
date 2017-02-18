@@ -17,6 +17,7 @@ import {ParkListComponent} from "./park-list/park-list.component";
 import {ParkDetailComponent} from "./park-detail/park-detail.component";
 
 const appRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: ParkListComponent},
   {path: 'park/:ParkID', component: ParkDetailComponent},
 ];
