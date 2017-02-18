@@ -4,6 +4,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using CoasterQuery.App_Start;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Autofac;
 using Autofac.Integration.WebApi;
 using CoasterQuery.Data.Models;
@@ -23,8 +24,8 @@ namespace CoasterQuery
             var builder = new ContainerBuilder();
 
             // Get your HttpConfiguration.
-            var config = GlobalConfiguration.Configuration;
-
+            var config = GlobalConfiguration.Configuration; 
+            config.EnableCors();
             // Register your Web API controllers.
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
  

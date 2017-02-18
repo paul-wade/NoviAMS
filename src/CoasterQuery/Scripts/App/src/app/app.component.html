@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div class="app-content">
+  <md-grid-list cols="2">
+    <md-grid-tile *ngFor="let park of parks">
+      <md-card>
+        <div class="row">{{park.Name}}</div>
+      </md-card>
+    </md-grid-tile>
+  </md-grid-list>
+</div>
