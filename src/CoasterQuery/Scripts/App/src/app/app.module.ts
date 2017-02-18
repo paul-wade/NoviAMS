@@ -9,6 +9,7 @@ import {BrowserModule} from "@angular/platform-browser";
 import {ParkService} from "./Services/park.service";
 import {MdGridListModule} from "@angular2-material/grid-list";
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { AgmCoreModule } from 'angular2-google-maps/core';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MdButtonModule,
     MdIconModule,
     MdGridListModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAdybAglxzKveYktptHsdXzn-tHepmymRM'
+    })
   ],
   providers: [MdIconRegistry, ParkService],
   bootstrap: [AppComponent]
