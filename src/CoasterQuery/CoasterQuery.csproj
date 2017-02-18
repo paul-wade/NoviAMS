@@ -282,11 +282,11 @@
     <Content Include="Scripts\App\.idea\workspace.xml" />
     <Content Include="Scripts\App\dist\favicon.ico" />
     <Content Include="Scripts\App\dist\index.html" />
-    <Content Include="Scripts\App\dist\inline.a56be306bb7d82a582ff.bundle.js" />
-    <Content Include="Scripts\App\dist\main.44ddb5bb23a569276eaf.bundle.js" />
-    <Content Include="Scripts\App\dist\polyfills.493f257b887537c0a7b0.bundle.js" />
+    <Content Include="Scripts\App\dist\inline.11ba471bfebd9b2011ca.bundle.js" />
+    <Content Include="Scripts\App\dist\main.a5531be2fc1f8f308b09.bundle.js" />
+    <Content Include="Scripts\App\dist\polyfills.d9ee194377b91e52bff3.bundle.js" />
     <Content Include="Scripts\App\dist\styles.eda1d0e66a0be51fe763.bundle.css" />
-    <Content Include="Scripts\App\dist\vendor.91945bc0d93518b92976.bundle.js" />
+    <Content Include="Scripts\App\dist\vendor.fc2f5f54d5042b49e024.bundle.js" />
     <Content Include="Scripts\App\karma.conf.js" />
     <Content Include="Scripts\App\protractor.conf.js" />
     <Content Include="Scripts\App\src\app\park-detail\park-detail.component.css" />
