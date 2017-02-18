@@ -1,6 +1,17 @@
-.app-content {
-  padding: 20px;
+
+md-card-content .label {
+  font-weight: bold;
+  color: lightgray;
 }
-.app-content md-card {
-  margin: 20px;
+
+md-card{
+  margin:5px;
+}
+
+md-card-title {
+  color: lightblue;
+}
+
+.container{
+  margin-top:10px;
 }

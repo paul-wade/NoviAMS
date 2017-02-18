@@ -1,9 +1,15 @@
-<div class="app-content">
-  <md-grid-list cols="2">
-    <md-grid-tile *ngFor="let park of parks">
-      <md-card>
-        <div class="row">{{park.Name}}</div>
+<div class="app-content container">
+   <div class="row">
+      <md-card *ngFor="let park of parks" class="col-md-5">
+        <md-card-title>{{park.Name}}</md-card-title>
+        <md-card-content>
+          <div>
+              <div class="label">City</div>
+              <div>{{park.City}}</div>
+          </div>
+        </md-card-content>
+
+        <md-card-actions>todo add button</md-card-actions>
       </md-card>
-    </md-grid-tile>
-  </md-grid-list>
+   </div>
 </div>

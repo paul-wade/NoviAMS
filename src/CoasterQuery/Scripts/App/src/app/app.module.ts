@@ -8,6 +8,8 @@ import {MdIconModule, MdIconRegistry} from "@angular2-material/icon";
 import {BrowserModule} from "@angular/platform-browser";
 import {ParkService} from "./Services/park.service";
 import {MdGridListModule} from "@angular2-material/grid-list";
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -19,7 +21,8 @@ import {MdGridListModule} from "@angular2-material/grid-list";
     MdCardModule,
     MdButtonModule,
     MdIconModule,
-    MdGridListModule
+    MdGridListModule,
+    NgbModule.forRoot()
   ],
   providers: [MdIconRegistry, ParkService],
   bootstrap: [AppComponent]
