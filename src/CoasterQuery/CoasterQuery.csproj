@@ -279,8 +279,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Scripts\App\dist\favicon.ico" />
     <Content Include="Scripts\App\dist\index.html" />
-    <Content Include="Scripts\App\dist\inline.11ba471bfebd9b2011ca.bundle.js" />
-    <Content Include="Scripts\App\dist\main.a5531be2fc1f8f308b09.bundle.js" />
+    <Content Include="Scripts\App\dist\inline.bc793219ba03799b4039.bundle.js" />
+    <Content Include="Scripts\App\dist\main.49a18fc01f6297416323.bundle.js" />
     <Content Include="Scripts\App\dist\polyfills.d9ee194377b91e52bff3.bundle.js" />
     <Content Include="Scripts\App\dist\styles.eda1d0e66a0be51fe763.bundle.css" />
     <Content Include="Scripts\App\dist\vendor.fc2f5f54d5042b49e024.bundle.js" />
